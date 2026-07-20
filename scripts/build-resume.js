@@ -40,7 +40,7 @@ const html = `<!doctype html>
       <h1>${escapeHtml(resume.name)}</h1>
       <p class="headline">${escapeHtml(resume.headline)}</p>
       <p class="summary">${escapeHtml(resume.summary)}</p>
-      <p class="links"><a href="${escapeHtml(resume.links.portfolio)}">Live portfolio ↗</a><a href="${escapeHtml(resume.links.github)}">GitHub ↗</a></p>
+      <p class="links"><a href="mailto:${escapeHtml(resume.links.email)}">${escapeHtml(resume.links.email)} ↗</a><a href="${escapeHtml(resume.links.portfolio)}">Live portfolio ↗</a><a href="${escapeHtml(resume.links.github)}">GitHub ↗</a></p>
     </header>
     <section>
       <p class="eyebrow">TECHNICAL TOOLKIT</p>

@@ -6,6 +6,8 @@ This repository is the public technical companion to my private product work. It
 
 **Visual portfolio:** [pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site](https://pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site)
 
+**Contact:** [pranavv@prsm360.com](mailto:pranavv@prsm360.com)
+
 ## What to review
 
 - [`case-studies/`](./case-studies) — full case studies covering the situation, my role, constraints, technical decisions, verification, and honest outcome for each product.
