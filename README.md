@@ -8,6 +8,8 @@ This repository is the public technical companion to my private product work. It
 
 **Contact:** [pranavv@prsm360.com](mailto:pranavv@prsm360.com)
 
+**Runnable demos:** [pranavv-product-demos](https://github.com/pranavvrajamani9-lgtm/pranavv-product-demos) — original synthetic demos that make the product patterns tangible without disclosing private production systems.
+
 ## What to review
 
 - [`case-studies/`](./case-studies) — full case studies covering the situation, my role, constraints, technical decisions, verification, and honest outcome for each product.
