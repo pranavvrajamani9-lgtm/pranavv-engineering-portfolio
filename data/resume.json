@@ -1,0 +1,46 @@
+{
+  "name": "Pranavv Rajamani",
+  "headline": "Full-Stack Developer · Product Engineer · Founder",
+  "summary": "I design and build full-stack products that turn complex operational workflows into clear, usable systems. My work spans mobile, web, data modeling, automation, and go-to-market tooling.",
+  "links": {
+    "github": "https://github.com/pranavvrajamani9-lgtm",
+    "portfolio": "https://pranavv-rajamani-portfolio.pranavvrajamani9.chatgpt.site"
+  },
+  "skills": [
+    "TypeScript", "JavaScript", "React", "React Native", "Next.js", "Expo",
+    "Supabase", "Postgres", "Row-level security", "Cloudflare Workers",
+    "Playwright", "Node.js", "Product design", "Workflow systems"
+  ],
+  "projects": [
+    {
+      "name": "Hoop Nest",
+      "label": "Mobile operations platform",
+      "description": "A role-aware mobile product for youth-program communication, event workflows, attendance, media, and family operations.",
+      "stack": ["React Native", "Expo", "TypeScript", "Supabase"]
+    },
+    {
+      "name": "Program Command Center",
+      "label": "Multi-tenant conversion system",
+      "description": "A founder-operated platform for campaign setup, tracked landing pages, lead normalization, parent follow-up, conversion evidence, and reporting.",
+      "stack": ["Next.js", "Postgres", "RLS", "Playwright"]
+    },
+    {
+      "name": "SignalDesk",
+      "label": "Evidence-first research workspace",
+      "description": "A research system that preserves source provenance, counterarguments, uncertainty, and reviewable conclusions.",
+      "stack": ["TypeScript", "Research systems", "Provider resilience"]
+    },
+    {
+      "name": "Outreach Research Engine",
+      "label": "Sales operations tooling",
+      "description": "A source-backed workflow for company research, readiness gates, discovery preparation, and safe data movement.",
+      "stack": ["Cloudflare Workers", "JavaScript", "Security headers"]
+    },
+    {
+      "name": "Dial AI",
+      "label": "AI-assisted sales practice",
+      "description": "A conversation-coaching product with clear AI, billing, authentication, and deployment integration boundaries.",
+      "stack": ["Next.js", "AI integrations", "CI/CD"]
+    }
+  ]
+}

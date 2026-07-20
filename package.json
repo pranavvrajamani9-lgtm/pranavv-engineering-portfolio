@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/guarded-workflow.test.js"
+    "build:resume": "node scripts/build-resume.js",
+    "test": "node --test tests/guarded-workflow.test.js",
+    "verify": "npm run test && npm run build:resume"
   },
   "engines": {
     "node": ">=20"

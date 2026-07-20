@@ -1,20 +1,30 @@
-# Hoop Nest — Mobile operations platform
+# Hoop Nest — Designing a role-aware mobile operating layer
 
-## Product problem
+## Situation
 
-Youth programs need one dependable layer for team communication, schedules, participation, and family-facing updates. The hard part is not building isolated screens; it is keeping organization, team, staff, and parent boundaries coherent across many daily actions.
+Youth programs often run family communication, schedules, attendance, and team updates through disconnected tools. That creates duplicate data entry for staff and a confusing experience for parents. The product needed to bring those recurring interactions into one mobile-first system while preserving the boundary between an organization, its teams, and its families.
 
-## System design
+## My role
 
-- React Native and Expo application with TypeScript throughout.
-- Supabase-backed identity and data model with organization and team membership boundaries.
-- Role-aware entry points for directors, coaches, and parents.
-- Mobile-first workflows for onboarding, events, attendance, feed, chat, media, and family operations.
+I own product definition and full-stack implementation: I translate the operational workflow into product scope, design the application flows, implement the client and service boundaries, and validate role-specific behavior.
 
-## Engineering emphasis
+## Constraints
 
-The platform is shaped around the operational model first: who may see which team, which actions modify attendance or events, and how a parent-facing flow remains comprehensible without becoming an administrative console. Verification includes role-based end-to-end mobile flows rather than only component-level rendering.
+- Directors, coaches, and parents need different views of the same organization.
+- The product is used in quick, everyday mobile interactions—not at a desk with training.
+- Team and organization boundaries must remain protected as people navigate events, attendance, communication, and media.
+- Sensitive family and minor-related information requires a conservative default for access and contact.
 
-## Public boundary
+## Technical approach
 
-The source and product data remain private. This case study intentionally omits schema internals, security-sensitive implementation, and organization records.
+I built the product in React Native/Expo with TypeScript and a Supabase-backed data and identity layer. Rather than treating each feature as isolated, the architecture starts with membership and role relationships. Product areas such as onboarding, event workflows, attendance, feed, chat, media, and family views consume those boundaries instead of reimplementing access rules individually.
+
+## Decisions that mattered
+
+1. **Model the organization before the screens.** Team membership and role-aware access are foundational; interface work follows those constraints.
+2. **Keep parent flows task-oriented.** Parent-facing screens emphasize only the information and actions needed for their own teams and family.
+3. **Verify complete role paths.** Mobile end-to-end checks cover director, coach, parent, team, event, attendance, feed, and chat routes rather than relying only on rendered components.
+
+## Outcome and status
+
+The result is a cohesive mobile operations platform with a clear path from organization onboarding to daily team activity. It remains a private product; public documentation intentionally excludes schemas, organization records, and security-sensitive implementation.
