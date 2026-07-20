@@ -1,0 +1,11 @@
+{
+  "name": "pranavv-engineering-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/guarded-workflow.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
