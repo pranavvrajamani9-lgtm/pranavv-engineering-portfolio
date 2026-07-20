@@ -8,6 +8,8 @@ This repository is the public technical companion to my private product work. It
 
 **Contact:** [pranavv@prsm360.com](mailto:pranavv@prsm360.com)
 
+**Public reference implementations:** [pranavv-product-demos](https://github.com/pranavvrajamani9-lgtm/pranavv-product-demos) — code-first demonstrations of product workflow, API, testing, and frontend interaction patterns.
+
 
 ## What to review
 
